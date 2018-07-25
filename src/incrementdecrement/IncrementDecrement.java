@@ -19,8 +19,6 @@ public class IncrementDecrement {
         int maxno = 0;
         coba cb = new coba();
         fungsibaru fb=new fungsibaru();
-        
-        
        System.out.println(fb.Increment1(4, 150,1));
        System.out.println(fb.Decrement2(4, 1, 150)); 
        System.out.println(cb.Increment1(4, 150));
