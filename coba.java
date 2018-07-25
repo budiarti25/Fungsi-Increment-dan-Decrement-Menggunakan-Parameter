@@ -21,7 +21,7 @@ public class coba {
         String hasil1 = "";
         int i = 150;
         int j = 0;
-        while (i >= minno) {
+        while (i >= minimal) {
             j=1; huruf1="";
             if (i > 99) {
                 while (j < panjang-2) {
@@ -58,7 +58,7 @@ public class coba {
         String hasil = "";
         int i = 1;
         int j = 1;
-        while (i <= mxno) {
+        while (i <= maksimal) {
             j=1; huruf="";
             if (i > 99) {
                 while (j < pjg-2) {
