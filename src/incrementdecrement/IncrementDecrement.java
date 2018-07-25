@@ -22,8 +22,8 @@ public class IncrementDecrement {
         
        System.out.println(fb.Increment1(4, 150));
        System.out.println(fb.Decrement2(4, 1)); 
-       //System.out.println(cb.Increment1(4, 150));
-       //System.out.println(cb.Decrement2(4, 1));
+       System.out.println(cb.Increment1(4, 150));
+       System.out.println(cb.Decrement2(4, 1));
     }
     
 }
