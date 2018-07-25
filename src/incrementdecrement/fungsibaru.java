@@ -14,13 +14,14 @@ public class fungsibaru {
      * Fungsi Decrement dengan panjang karakter ditentukan
      * @param panjang bertipe integer untuk menentukan panjang karakter yang akan ditampilkan
      * @param minimal bertipe integer nilai minimal yg akan ditampilkan
+     * @param maksimal bertipe integer nilai maksimal yang akan ditampilkan
      * @return hasil berupa tampilan nilai decrement dengan panjang karakter ditentukan dan letak nilainya menyesuaikan posisi karakter
      */
-    public String Decrement2(int panjang, int minimal) {
+    public String Decrement2(int panjang, int minimal, int maksimal) {
         String huruf1 = "";
         String hasil1 = "";
         int a=panjang;
-        int i = 150;
+        int i = maksimal;
         int j = 0;
         while (i >= minimal) {
             j=1; huruf1="";
@@ -45,13 +46,14 @@ public class fungsibaru {
      * Fungsi Increment dengan panjang karakter ditentukan
      * @param pjg bertipe integer untuk menentukan panjang karakter yang akan ditampilkan
      * @param maksimal bertipe integer untuk menentukan nilai maksimal yang akan di tampilkan
+     * @param minimal bertipe integer untuk menentukan nilai minimal yang akan di tampilkan
      * @return hasil berupa tampilan nilai increment dengan panjang karakter ditentukan dan letak nilainya menyesuaikan posisi karakter
      */
-    public String Increment1(int pjg, int maksimal) {
+    public String Increment1(int pjg, int maksimal, int minimal) {
         String huruf = "";
         String hasil = "";
         int a = pjg;
-        int i = 1;
+        int i = minimal;
         int j = 1;
         while (i <= maksimal) {
             j=1; huruf="";
