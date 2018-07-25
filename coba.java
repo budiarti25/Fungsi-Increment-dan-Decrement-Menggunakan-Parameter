@@ -13,10 +13,10 @@ public class coba {
     /**
      * Fungsi Decrement dengan panjang karakter ditentukan
      * @param panjang bertipe integer untuk menentukan panjang karakter yang akan ditampilkan
-     * @param minno bertipe integer nilai minimal yg akan ditampilkan
+     * @param minimal bertipe integer nilai minimal yg akan ditampilkan
      * @return hasil berupa tampilan nilai decrement dengan panjang karakter ditentukan dan letak nilainya menyesuaikan posisi karakter
      */
-    public String Decrement2(int panjang, int minno) {
+    public String Decrement2(int panjang, int minimal) {
         String huruf1 = "";
         String hasil1 = "";
         int i = 150;
@@ -53,11 +53,9 @@ public class coba {
      * @param mxno bertipe integer untuk menentukan nilai maksimal yang akan di tampilkan
      * @return hasil berupa tampilan nilai increment dengan panjang karakter ditentukan dan letak nilainya menyesuaikan posisi karakter
      */
-    public String Increment1(int pjg, int mxno) {
-        //String[] data = new String[pjg];
+    public String Increment1(int pjg, int maksimal) {
         String huruf = "";
         String hasil = "";
-        //int a = pjg;
         int i = 1;
         int j = 1;
         while (i <= mxno) {
